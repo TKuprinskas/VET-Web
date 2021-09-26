@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DREAM PET VET</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <script defer src="/medications/addmedication.js"></script>
+    <header>
+      <div class="header">
+        <div>
+          <a href="/index.html"
+            ><img
+              src="http://www.petras.slekys.com/images/projects/vetbee.png"
+              alt="vetbee"
+          /></a>
+        </div>
+        <div>
+          <a href="/index.html">Pets</a>
+          <a href="/logs/logs.html" class="selected">Medications</a>
+        </div>
+      </div>
+    </header>
+  </head>
+  <body>
+    <section class="container first">
+      <div class="toptitle">
+        <h1>ADD NEW MEDICATION</h1>
+      </div>
+    </section>
+    <section class="container">
+      <div id="formContainer">
+        <form id="inputForm">
+          <div class="form-wrapper">
+            <div class="form-input">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" placeholder="Name" />
+            </div>
+            <div class="form-input description">
+              <label for="description">Description</label>
+              <textarea
+                name="description"
+                id="description"
+                cols="30"
+                rows="10"
+                resize="none"
+                placeholder="Description.."
+              ></textarea>
+            </div>
+            <div class="create-buttons">
+              <button id="cancel-button">Cancel</button>
+              <button type="submit" class="add-button">
+                Add New Medication
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+  <footer>CopyRight @2021 VETBEE</footer>
+</html>

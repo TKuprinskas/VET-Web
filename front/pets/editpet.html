@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DREAM PET VET</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <script defer src="/pets/editpet.js"></script>
+    <header>
+      <div class="header">
+        <div>
+          <a href="/index.html"
+            ><img
+              src="http://www.petras.slekys.com/images/projects/vetbee.png"
+              alt="vetbee"
+          /></a>
+        </div>
+        <div>
+          <a href="/index.html" class="selected">Pets</a>
+          <a href="/logs/logs.html">Logs</a>
+        </div>
+      </div>
+    </header>
+  </head>
+  <body>
+    <section class="container first">
+      <div class="toptitle">
+        <h1>EDIT PET DETAILS</h1>
+      </div>
+    </section>
+    <section class="container">
+      <div id="formContainer">
+        <form id="inputForm">
+          <div class="form-wrapper">
+            <div class="form-input">
+              <label for="name" id="pet_name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Change Name"
+              />
+            </div>
+
+            <div class="form-input dob">
+              <label for="dob" id="pet_dob">Pet's DOB</label>
+              <input
+                type="text"
+                id="dob"
+                name="dob"
+                placeholder="Edit Pet's DOB"
+              />
+            </div>
+            <div class="form-input email">
+              <label for="email" id="client_email">Your Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Change Email"
+              />
+            </div>
+            <div class="create-buttons">
+              <button id="cancel-button">Cancel</button>
+              <button type="submit" class="add-button">UPDATE PET</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+  <footer>CopyRight @2021 VETBEE</footer>
+</html>

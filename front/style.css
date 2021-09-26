@@ -1,0 +1,318 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+header {
+  border-bottom: 1px solid orange;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+}
+
+.header img {
+  height: 4rem;
+}
+
+.header a {
+  text-decoration: none;
+  color: orange;
+  padding: 1rem;
+}
+
+.selected {
+  font-weight: bold;
+}
+
+.first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.toptitle {
+  flex: 1;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+}
+
+.filter div {
+  padding: 0 0.2rem;
+}
+
+.filterBTN {
+  padding: 0.2rem 0.5rem;
+  color: #fff;
+  border-radius: 0.4rem;
+  border: none;
+}
+
+.filterON {
+  padding: 0.2rem 0.5rem;
+  background: orange;
+  color: #eee;
+  border-radius: 0.4rem;
+  border: none;
+}
+
+.filterBTN:hover {
+  cursor: pointer;
+}
+
+.addBTN {
+  margin: 1rem 0;
+  padding: 1rem 0;
+}
+
+.add-button {
+  height: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background: orange;
+  color: #eee;
+  border: none;
+  font-weight: bolder;
+}
+
+.add-button:hover {
+  cursor: pointer;
+}
+
+.addBTN span {
+  margin-left: 1rem;
+}
+
+#addlog {
+  background: transparent;
+  border: 1px solid orange;
+  color: orange;
+  margin-left: 1rem;
+}
+
+.second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#pets,
+#users {
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 370px);
+  justify-content: space-between;
+  grid-gap: 20px;
+}
+
+#users {
+  text-align: left;
+}
+
+#petid,
+#medid {
+  width: 100%;
+}
+
+select {
+  border: 1px solid #eee;
+}
+
+.pets,
+.users {
+  background: #fff;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  border: 1px solid orange;
+}
+
+.pets p {
+  text-align: left;
+}
+
+.petdob {
+  margin-bottom: 0.1rem;
+}
+
+.clientemail {
+  margin-top: 0.1rem;
+}
+
+.btndiv {
+  text-align: center;
+}
+
+.delBTN,
+.editBTN {
+  background-color: transparent;
+  border: 1px solid orange;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  color: orange;
+  margin-left: 0.5rem;
+}
+
+.viewlog {
+  background-color: orange;
+  border: 1px solid orange;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  color: #eee;
+}
+
+.delBTN:hover {
+  cursor: pointer;
+}
+
+.viewlog:hover {
+  cursor: pointer;
+}
+
+.editBTN:hover {
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 0.5rem;
+  border-top: 1px solid orange;
+}
+
+#formContainer,
+#createUser {
+  background: #fff;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 0.2rem;
+}
+
+#inputForm {
+  width: 75%;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.form-wrapper {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.form-input {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-input label {
+  width: 40%;
+  font-weight: bold;
+}
+
+.form-input input {
+  width: 100%;
+  margin-left: 1rem;
+  text-indent: 0.5rem;
+  border: 1px solid #eee;
+}
+
+.form-input textarea {
+  resize: none;
+  width: 100%;
+  margin-left: 1rem;
+  border: 1px solid #eee;
+}
+
+.create-buttons {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+#cancel-button {
+  background: transparent;
+  border: none;
+  font-weight: bolder;
+  font-size: larger;
+  padding: 0 1rem;
+}
+
+#cancel-button:hover {
+  cursor: pointer;
+}
+
+.sorter {
+  text-align: center;
+}
+
+.sorter i {
+  padding-left: 0.5rem;
+}
+
+#sortOrderSpan:hover {
+  cursor: pointer;
+}
+
+#usersField {
+  width: 100%;
+}
+
+.users h4 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  color: rgba(187, 174, 174, 0.877);
+}
+
+#createUserForm {
+  width: 80%;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.user-wrapper {
+  display: flex;
+}
+
+.user-wrapper .user-input {
+  width: calc(50% - 2rem);
+  margin-bottom: 1rem;
+}
+
+.user-wrapper .user-input input,
+.user-wrapper .user-input select {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 0.2rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #eee;
+  margin-top: 0.5rem;
+}
+
+.user-input #chooseplan {
+  width: 65%;
+}
+
+.user-input:nth-child(2) {
+  margin-left: 1rem;
+}
+
+.user-input label {
+  font-weight: bolder;
+}
+
+.emailGet,
+.membershipGet,
+.ipGet {
+  color: #6a5acd;
+}
